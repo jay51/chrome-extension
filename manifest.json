@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Jay Geen",
+  "description": "Quick launch jay Media",
+  "version": "1.0.0",
+  "icons": { "128": "MyLogo.png" },
+  "browser_action": {
+    "default_icon": "MyLogo.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
